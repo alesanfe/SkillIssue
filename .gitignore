@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Backups and exports
+backup_*.db
+export_*.json
+
+# Documentation exports
+USER_MANUAL.docx
+
+# IDE
+.idea/
+.vscode/
+.qodo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp

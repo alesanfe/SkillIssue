@@ -1,0 +1,33 @@
+{
+  "name": "lorebot",
+  "version": "1.0.0",
+  "description": "A Discord bot for saving and organizing server lore, messages, and memes with advanced search and template features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/database.test.js",
+    "test:e2e": "node test/e2e.test.js"
+  },
+  "private": true,
+  "keywords": [
+    "discord",
+    "bot",
+    "discord-bot",
+    "lore",
+    "memes",
+    "moderation",
+    "organization",
+    "search",
+    "templates",
+    "sqlite",
+    "discord.js"
+  ],
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "docx": "^9.7.1",
+    "dotenv": "^16.4.5",
+    "markdown-to-docx": "^1.2.0",
+    "marked": "^18.0.5",
+    "sqlite3": "^5.1.7"
+  }
+}
